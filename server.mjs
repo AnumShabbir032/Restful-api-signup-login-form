@@ -19,7 +19,7 @@ let userBase = [];
 
 
 //Signup Database
-app.post("https://signup-login-form-restful-api.herokuapp.com/signup", (req, res) => {
+app.post("/signup", (req, res) => {
 
 
     let body = req.body;
@@ -71,7 +71,7 @@ app.post("https://signup-login-form-restful-api.herokuapp.com/signup", (req, res
 
 //Login Database
 
-app.post("https://signup-login-form-restful-api.herokuapp.com/login", (req, res) => {
+app.post("/login", (req, res) => {
 
     let body = req.body;
 
